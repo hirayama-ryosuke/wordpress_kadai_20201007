@@ -57,8 +57,8 @@ $link_address = 'company.php';
 	<li><a href="service.php">サービスメニュー</a></li>
 	</ul>
 </li>
-<li><a href="recruit.html">Recruit</a></li>
-<li><a href="contact.html">Contact</a></li>
+<li><a href="recruit.php">Recruit</a></li>
+<li><a href="contact.php">Contact</a></li>
 </ul>
 </nav>
 <ul class="icon">
