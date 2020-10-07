@@ -1,4 +1,5 @@
 <?php get_header(); ?>
+
 <div id="contents">
 
 <section>
@@ -7,7 +8,7 @@
 
 <?php
   $arg = array(
-             'category_name' => 'info2', // 表示したいカテゴリーのスラッグを指定
+             'category_name' => 'info', // 表示したいカテゴリーのスラッグを指定
              
          );
   $posts = get_posts( $arg );
@@ -25,7 +26,6 @@
 ?>
 
 </section>
-
 
 </div>
 <!--/#contents-->

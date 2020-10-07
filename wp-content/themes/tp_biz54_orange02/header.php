@@ -27,11 +27,14 @@
 <div id="container">
 
 <header>
-<h1 id="logo"><a href="index.php"><img src="<?php echo get_template_directory_uri(); ?>/images/logo.png" alt="SAMPLE COMPANY"></a></h1>
+<h1 id="logo"><a href="#"><img src="<?php echo get_template_directory_uri(); ?>/images/logo.png" alt="SAMPLE COMPANY"></a></h1>
 <!--PC用（901px以上端末）メニュー-->
 <nav id="menubar">
+<?php 
+$link_address = 'company.php';
+?>
 <ul>
-<li><a href="company.php">Company</a></li>
+<li><a href="<?php echo $link_address;?>"> Company </a></li>
 <li class="ddmenu-title">Service
 	<ul class="ddmenu">
 	<li><a href="service.php">サービスメニュー</a></li>
@@ -46,7 +49,7 @@
 <!--小さい端末用（900px以下端末）メニュー-->
 <nav id="menubar-s">
 <ul>
-<li><a href="company.php">Company</a></li>
+<li><a href="/company.php">Company</a></li>
 <li id="menubar_hdr2" class="close">Service
 	<ul id="menubar-s2">
 	<li><a href="service.php">サービスメニュー</a></li>
